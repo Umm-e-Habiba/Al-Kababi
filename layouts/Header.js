@@ -19,74 +19,24 @@ const Menus = () => {
     <ul>
       {/* Home: simple link, no dropdown */}
       <li className="active">
-        <Link href="/">Home Page</Link>
+        <Link href="/">Home</Link>
       </li>
 
       {/* Shop */}
       <li className="has-dropdown">
         <Link href="/shop">
-          Shop
+          Food Menu
           <i className="fas fa-angle-down" />
         </Link>
         <ul className="submenu">
-          <li><Link href="/shop">Shop Grid</Link></li>
-          <li><Link href="/shop-list">Shop List</Link></li>
-          <li><Link href="/shop-left-sidebar">Shop Left SideBar</Link></li>
-          <li><Link href="/shop-right-sidebar">Shop Right SideBar</Link></li>
-          <li><Link href="/shop-single">Shop Single</Link></li>
-          <li><Link href="/shop-cart">Shop Cart</Link></li>
-          <li><Link href="/checkout">checkout</Link></li>
+          <li><Link href="/shop-left-sidebar">Food Categories</Link></li>
+          <li><Link href="/shop-list">Food Menu List</Link></li>
         </ul>
       </li>
-
-      {/* Blog */}
       <li>
-        <Link href="/news">
-          Blog
-          <i className="fas fa-angle-down" />
-        </Link>
-        <ul className="submenu">
-          <li><Link href="/news">Blog</Link></li>
-          <li><Link href="/news-details">Blog Details</Link></li>
-        </ul>
+        <Link href="/about">About Us</Link>
       </li>
-
-      {/* Pages */}
-      <li className="has-dropdown">
-        <Link href="/news">
-          Pages
-          <i className="fas fa-angle-down" />
-        </Link>
-        <ul className="submenu">
-          <li><Link href="/about">About Us</Link></li>
-          <li className="has-dropdown">
-            <Link href="/team">
-              Chef Page
-              <i className="fas fa-angle-down" />
-            </Link>
-            <ul className="submenu">
-              <li><Link href="/team">Chef</Link></li>
-              <li><Link href="/team-details">Chef Details</Link></li>
-            </ul>
-          </li>
-          <li className="has-dropdown">
-            <Link href="/food-menu">
-              Food Menu
-              <i className="fas fa-angle-down" />
-            </Link>
-            <ul className="submenu">
-              <li><Link href="/food-menu">Food Menu 01</Link></li>
-              <li><Link href="/food-menu-2">Food Menu 02</Link></li>
-            </ul>
-          </li>
-          <li><Link href="/gallery">Gallery</Link></li>
-          <li><Link href="/testimonial">testimonial</Link></li>
-          <li><Link href="/reservation">Reservation</Link></li>
-          <li><Link href="/faq">Faq's</Link></li>
-          <li><Link href="/404">404 Page</Link></li>
-        </ul>
-      </li>
-
+    
       <li>
         <Link href="/contact">Contact</Link>
       </li>
@@ -99,7 +49,7 @@ const Header1 = () => {
   return (
     <Fragment>
       <header className="section-bg">
-        <div className="header-top">
+        <div className="header-top" style={{ height: "50px", paddingTop: "10px"}}>
           <div className="container">
             <div className="header-top-wrapper">
               <ul>
@@ -113,12 +63,7 @@ const Header1 = () => {
                 </li>
               </ul>
               <div className="top-right">
-                <div className="search-wrp">
-                  <button>
-                    <i className="far fa-search" />
-                  </button>
-                  <input placeholder="Search" aria-label="Search" />
-                </div>
+                
                 <div className="social-icon d-flex align-items-center">
                   <a href="#"><i className="fab fa-facebook-f" /></a>
                   <a href="#"><i className="fab fa-twitter" /></a>
@@ -136,7 +81,7 @@ const Header1 = () => {
                 <div className="logo">
                   <Link href="/" className="header-logo">
                     {/* Updated to Al-KABABI logo */}
-                    <img src="assets/img/logo/alkababi.svg" alt="Al-KABABI logo" />
+                    <img src="assets/img/logo/alkababi.png" alt="Al-KABABI logo" />
                   </Link>
                 </div>
                 <div className="header-left">
@@ -184,8 +129,8 @@ const Header1 = () => {
                     </Link>
                   </div>
                   <div className="header-button">
-                    <Link href="/contact" className="theme-btn bg-red-2">
-                      contact us
+                    <Link href="/reservation" className="theme-btn bg-red-2">
+                      Reservation
                     </Link>
                   </div>
                   <div className="header__hamburger d-xl-block my-auto">
@@ -232,13 +177,13 @@ const Header2 = () => {
                   <div className="logo">
                     <Link href="/" className="header-logo">
                       {/* Updated to Al-KABABI alt logo */}
-                      <img src="assets/img/logo/alkababi-3.svg" alt="Al-KABABI logo" />
+                      <img src="assets/img/logo/alkababi.png" alt="Al-KABABI logo" style={{ width: "100px"}} />
                     </Link>
                   </div>
                   <div className="logo-2">
                     <Link href="/" className="h   eader-logo">
                       {/* Updated to Al-KABABI main logo */}
-                      <img src="assets/img/logo/alkababi-3  .svg" alt="Al-KABABI logo" />
+                      <img src="assets/img/logo/alkababi.png" alt="Al-KABABI logo"  />
                     </Link>
                   </div>
                 </div>
@@ -325,7 +270,7 @@ const Sidebar = ({ toggle, setToggle }) => {
                 <div className="offcanvas__logo">
                   <Link href="/">
                     {/* Updated to Al-KABABI logo */}
-                    <img src="assets/img/logo/alkababi-3.svg" alt="Al-KABABI logo" />
+                    <img src="assets/img/logo/alkababi.png" alt="Al-KABABI logo" style={{ width: "150px" }} />
                   </Link>
                 </div>
                 <div className="offcanvas__close">
@@ -335,9 +280,9 @@ const Sidebar = ({ toggle, setToggle }) => {
                 </div>
               </div>
               <p className="text d-none d-lg-block">
-                This involves interactions between a business and its customers.
-                It's about meeting customers' needs and resolving their
-                problems. Effective customer service is crucial.
+                Authentic Al-Kababi cuisine made fresh daily with halal ingredients.
+                Enjoy dine-in, pickup, and fast delivery in our local area.
+                Quality, flavor, and friendly service—every single order.
               </p>
               <div className="offcanvas-gallery-area d-none d-lg-block">
                 <div className="offcanvas-gallery-items">
@@ -373,7 +318,7 @@ const Sidebar = ({ toggle, setToggle }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                      22 Hempstead turnpike Farmingdale NY 11735,USA
                       </a>
                     </div>
                   </li>
@@ -383,7 +328,7 @@ const Sidebar = ({ toggle, setToggle }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a href="tel:+013-003-003-9993">
-                        <span className="mailto:info@enofik.com">info@foodking.com</span>
+                        <span className="mailto:info@enofik.com">info@alkababi.com</span>
                       </a>
                     </div>
                   </li>
@@ -402,17 +347,17 @@ const Sidebar = ({ toggle, setToggle }) => {
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <a href="tel:+516-249-7414">+516-249-7414</a>
                     </div>
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <Link href="/shop-single" className="theme-btn">
+                  <Link href="/reservation" className="theme-btn">
                     <span className="button-content-wrapper d-flex align-items-center justify-content-center">
                       <span className="button-icon">
                         <i className="flaticon-delivery" />
                       </span>
-                      <span className="button-text">order now</span>
+                      <span className="button-text">Reservation</span>
                     </span>
                   </Link>
                 </div>
@@ -452,84 +397,27 @@ const MobileMenu = () => {
           <ul>
             {/* Home: simple link, no dropdown */}
             <li className="active">
-              <Link href="/">Home Page</Link>
+              <Link href="/">Home</Link>
             </li>
 
             <li className="has-dropdown">
-              <Link href="/shop">
-                Shop
+              <Link href="/shop-left-sidebar">
+                Food Menu
                 <i className="fas fa-angle-down" />
               </Link>
               <ul className="submenu" style={activeLi("shop")}>
-                <li><Link href="/shop">Shop Grid</Link></li>
-                <li><Link href="/shop-list">Shop List</Link></li>
-                <li><Link href="/shop-left-sidebar">Shop Left SideBar</Link></li>
-                <li><Link href="/shop-right-sidebar">Shop Right SideBar</Link></li>
-                <li><Link href="/shop-single">Shop Single</Link></li>
-                <li><Link href="/shop-cart">Shop Cart</Link></li>
-                <li><Link href="/checkout">checkout</Link></li>
+                <li><Link href="/shop-left-sidebar">Food Categories</Link></li>
+                <li><Link href="/shop-list">Food Menu </Link></li>
+                
               </ul>
               <a className="mean-expand" href="#" onClick={() => activeMenuSet("shop")}>
                 <i className="far fa-plus" />
               </a>
             </li>
 
-            <li>
-              <Link href="/news">
-                Blog
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu" style={activeLi("news")}>
-                <li><Link href="/news">Blog</Link></li>
-                <li><Link href="/news-details">Blog Details</Link></li>
-              </ul>
-              <a className="mean-expand" href="#" onClick={() => activeMenuSet("news")}>
-                <i className="far fa-plus" />
-              </a>
-            </li>
-
-            <li className="has-dropdown">
-              <Link href="/news">
-                Pages
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu" style={activeLi("pages")}>
-                <li><Link href="/about">About Us</Link></li>
-                <li className="has-dropdown">
-                  <Link href="/team">
-                    Chef Page
-                    <i className="fas fa-angle-down" />
-                  </Link>
-                  <ul className="submenu" style={multiMenuActiveLi("team")}>
-                    <li><Link href="/team">Chef</Link></li>
-                    <li><Link href="/team-details">Chef Details</Link></li>
-                  </ul>
-                  <a className="mean-expand" href="#" onClick={() => multiMenuSet("team")}>
-                    <i className="far fa-plus" />
-                  </a>
-                </li>
-                <li className="has-dropdown">
-                  <Link href="/food-menu">
-                    Food Menu
-                    <i className="fas fa-angle-down" />
-                  </Link>
-                  <ul className="submenu" style={multiMenuActiveLi("food-menu")}>
-                    <li><Link href="/food-menu">Food Menu 01</Link></li>
-                    <li><Link href="/food-menu-2">Food Menu 02</Link></li>
-                  </ul>
-                  <a className="mean-expand" href="#" onClick={() => multiMenuSet("food-menu")}>
-                    <i className="far fa-plus" />
-                  </a>
-                </li>
-                <li><Link href="/gallery">Gallery</Link></li>
-                <li><Link href="/testimonial">testimonial</Link></li>
-                <li><Link href="/reservation">Reservation</Link></li>
-                <li><Link href="/faq">Faq's</Link></li>
-                <li><Link href="/404">404 Page</Link></li>
-              </ul>
-              <a className="mean-expand" href="#" onClick={() => activeMenuSet("pages")}>
-                <i className="far fa-plus" />
-              </a>
+            
+            <li className="mean-last">
+              <Link href="/about">About Us</Link>
             </li>
 
             <li className="mean-last">

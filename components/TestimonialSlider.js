@@ -30,13 +30,12 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                 <SwiperSlide className="swiper-slide">
                   <div className="testimonial-content">
                     <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
+                      <h4>Aisha Khan</h4>
+                      <h5>Regular Customer</h5>
                     </div>
                     <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
+                      “Al-Kababi’s kebabs are unbelievably tender and flavorful —
+                      easily the best shawarma in town. Always fresh, always halal.”
                     </h3>
                     <div className="star">
                       <span className="fas fa-star" />
@@ -50,13 +49,12 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                 <SwiperSlide className="swiper-slide">
                   <div className="testimonial-content">
                     <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
+                      <h4>David Ramirez</h4>
+                      <h5>Food Blogger</h5>
                     </div>
                     <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
+                      “Crisp falafel, fluffy pita, and bold spices — Al-Kababi
+                      never misses. Authentic flavors with modern freshness.”
                     </h3>
                     <div className="star">
                       <span className="fas fa-star" />
@@ -70,13 +68,12 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                 <SwiperSlide className="swiper-slide">
                   <div className="testimonial-content">
                     <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
+                      <h4>Fatima Ali</h4>
+                      <h5>Local Guide</h5>
                     </div>
                     <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
+                      “Family-friendly, fast service, and truly authentic Middle
+                      Eastern taste. Our weekly go-to spot!”
                     </h3>
                     <div className="star">
                       <span className="fas fa-star" />
@@ -90,13 +87,12 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                 <SwiperSlide className="swiper-slide">
                   <div className="testimonial-content">
                     <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
+                      <h4>Michael Chen</h4>
+                      <h5>Catered Event Client</h5>
                     </div>
                     <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
+                      “Al-Kababi catered our office lunch — on time, hot, and
+                      absolutely delicious. Huge hit with the team.”
                     </h3>
                     <div className="star">
                       <span className="fas fa-star" />
@@ -110,13 +106,12 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                 <SwiperSlide className="swiper-slide">
                   <div className="testimonial-content">
                     <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
+                      <h4>Sara Ahmed</h4>
+                      <h5>First-time Visitor</h5>
                     </div>
                     <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
+                      “The chicken over rice was perfect — juicy, flavorful, and
+                      generous portions. Great value!”
                     </h3>
                     <div className="star">
                       <span className="fas fa-star" />
@@ -130,13 +125,12 @@ const TestimonialSlider = ({ sectionBg = true }) => {
                 <SwiperSlide className="swiper-slide">
                   <div className="testimonial-content">
                     <div className="client-info">
-                      <h4>Piter Bowman</h4>
-                      <h5>Business CEO &amp; co founder</h5>
+                      <h4>Omar Hassan</h4>
+                      <h5>Family Diner</h5>
                     </div>
                     <h3>
-                      “Thank you for dinner last night. It was amazing!! I have
-                      say it’s the best meal I have had in quite some time. will
-                      definitely be seeing more eating next year.”
+                      “My kids loved it. Fresh breads, juicy grills, and kind
+                      staff. Five stars for Al-Kababi.”
                     </h3>
                     <div className="star">
                       <span className="fas fa-star" />

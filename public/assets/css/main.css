@@ -1,3 +1,162 @@
+/* Menu page themed design */
+.menu-page {
+  background: #fff;
+  position: relative;
+}
+.menu-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(1000px 480px at 50% -10%, rgba(0,0,0,0.04), transparent 70%),
+              radial-gradient(900px 600px at 100% 10%, rgba(0,0,0,0.035), transparent 60%),
+              radial-gradient(900px 600px at 0% 10%, rgba(0,0,0,0.03), transparent 60%);
+}
+.menu-page .menu-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.75));
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 16px 44px rgba(0,0,0,0.12), 0 0 0 1px rgba(255,120,40,0.12) inset;
+}
+.menu-card::after {
+  content: "";
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  top: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgba(255,120,40,0.45), rgba(255,60,0,0.2), rgba(255,120,40,0.45));
+  opacity: .5;
+}
+.menu-page .menu-card__header h3 {
+  color: #111;
+  font-weight: 800;
+  letter-spacing: .4px;
+}
+.menu-page .theme-btn,
+.menu-page .theme-btn-2 {
+  border-radius: 12px;
+}
+.menu-card__actions { gap: 12px; }
+.menu-card__actions .theme-btn,
+.menu-card__actions .theme-btn-2 {
+  padding: 10px 18px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: .2px;
+  text-transform: none;
+  border-radius: 12px;
+  overflow: visible;
+  min-width: 120px;
+}
+.menu-page .theme-btn {
+  background: linear-gradient(90deg, #ff7a1a, #ff3d00);
+  border: 0;
+}
+.menu-page .theme-btn:hover {
+  filter: brightness(1.05);
+}
+.menu-page .theme-btn-2 {
+  background: #fff;
+  color: #111 !important;
+  border: 1px solid rgba(0,0,0,0.22);
+}
+.menu-page .theme-btn-2:hover {
+  background: rgba(0,0,0,0.06);
+}
+/* Al-Kababi Menu Card */
+.menu-card {
+  background: #0e0e0e;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 34px rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+.menu-card__header h3 {
+  color: #fff;
+  font-size: 22px;
+}
+.menu-card__image {
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.menu-card__image .menu-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform .35s ease;
+}
+.menu-card__image:hover .menu-img {
+  transform: scale(1.02);
+}
+.menu-card__note {
+  color: rgba(255,255,255,0.7);
+  font-size: 14px;
+}
+
+/* Al-Kababi Menu Card – Enhanced styling */
+.menu-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 18px 50px rgba(0,0,0,0.35);
+}
+.menu-card__header { 
+  padding-bottom: 12px; 
+  margin-bottom: 18px; 
+  border-bottom: 1px solid rgba(255,255,255,0.08); 
+}
+.menu-card__header h3 { 
+  color: #fff; 
+  font-size: 22px; 
+  font-weight: 700; 
+  letter-spacing: .5px; 
+}
+.menu-card__image { 
+  background: #0a0a0a; 
+  border-radius: 14px; 
+  overflow: hidden; 
+  box-shadow: 0 10px 28px rgba(0,0,0,0.45); 
+  cursor: zoom-in;
+}
+.menu-card__image .menu-img { 
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  transition: transform .35s ease, filter .35s ease; 
+}
+.menu-card__image:hover .menu-img { 
+  transform: translateY(-1px) scale(1.015); 
+  filter: saturate(1.05) contrast(1.02); 
+}
+.menu-card__note { 
+  color: rgba(255,255,255,0.75); 
+  font-size: 14px; 
+}
+/* Light theme overrides */
+.menu-page .menu-card__note {
+  color: rgba(0,0,0,0.65);
+}
+.menu-page .menu-card__image {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+@media (max-width: 575px) { 
+  .menu-card { padding: 16px; } 
+  .menu-card__header h3 { font-size: 18px; } 
+}
+/* Pizza banner image mobile sizing */
+@media (max-width: 991px) {
+  .pizza-banner-items .pizza-image img {
+    width: 189px !important;
+    margin-left: 110px !important;
+  }
+}
 /*
 Theme Name: Foodking
 Author: Modina Theme
@@ -1672,6 +1831,25 @@ input.main-search-input::placeholder {
 @media (min-width: 991px) {
   .sticky.header-1 .header-main {
     padding: 0px;
+  }
+}
+/* Header1 sticky logo size */
+.sticky.header-1 .header-main .logo img {
+  width: 150px !important;
+  height: 100px !important;
+  object-fit: contain;
+}
+/* Header1 default (non-sticky) logo size */
+.header-1 .header-main .logo img {
+  width: 250px;
+  height: auto;
+  transition: width 0.25s ease, height 0.25s ease;
+}
+/* Header1 mobile default size */
+@media (max-width: 991px) {
+  .header-1 .header-main .logo img {
+    width: 150px;
+    height: auto;
   }
 }
 .sticky.header-2 .header-main .header-left .logo-2 {

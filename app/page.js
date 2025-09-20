@@ -72,7 +72,8 @@ const page = () => {
                   />
                 </div>
                 <div className="pizza-image">
-                  <img src="assets/img/food/pizza-2.png" alt="pizza-img" />
+                  <img src="assets/img/food/platter.png" alt="pizza-img"  
+                  style={{ width: "300px",rotate:"44deg",marginBottom:"-60px" }} />
                 </div>
               </div>
             </div>
@@ -147,7 +148,7 @@ const page = () => {
                 data-wow-delay=".4s"
               >
                 <div className="grilled-image">
-                  <img src="assets/img/food/grilled.png" alt="grilled-img" />
+                  <img src="assets/img/food/bbq-3.jpg" alt="grilled-img" />
                 </div>
               </div>
             </div>
@@ -160,7 +161,7 @@ const page = () => {
           <div className="section-title text-center">
             <span className="wow fadeInUp">crispy, every bite taste</span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Popular Food Items
+              Our Food Menu
             </h2>
           </div>
           <div className="row">
@@ -170,16 +171,17 @@ const page = () => {
             >
               <div className="catagory-product-card-2 text-center">
                 <div className="icon">
-                  <Link href="/shop-cart">
+                  <Link href="/shop-left-sidebar">
                     <i className="far fa-heart" />
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/beef-ruti.png" alt="product-img" />
+                  <img src="assets/img/food/bbq-1.png" alt="product-img" 
+                  style={{ width: "250px" }} />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
-                    <Link href="/shop-cart" className="theme-btn-2">
+                    <Link href="/shop-left-sidebar" className="theme-btn-2">
                       <i className="far fa-shopping-basket" />
                       Add To Cart
                     </Link>
@@ -190,7 +192,7 @@ const page = () => {
                     <span>$28.52</span>
                   </div>
                   <h4>
-                    <Link href="/shop-single">ruti with beef slice</Link>
+                    <Link href="/shop-left-sidebar">BBQ</Link>
                   </h4>
                   <div className="star">
                     <span className="fas fa-star" />
@@ -208,7 +210,7 @@ const page = () => {
             >
               <div className="catagory-product-card-2 active text-center">
                 <div className="icon">
-                  <Link href="/shop-cart">
+                  <Link href="/shop-left-sidebar">
                     <i className="far fa-heart" />
                   </Link>
                 </div>
@@ -217,7 +219,7 @@ const page = () => {
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
-                    <Link href="/shop-cart" className="theme-btn-2">
+                    <Link href="/shop-left-sidebar" className="theme-btn-2">
                       <i className="far fa-shopping-basket" />
                       Add To Cart
                     </Link>
@@ -228,7 +230,7 @@ const page = () => {
                     <span>$28.52</span>
                   </div>
                   <h4>
-                    <Link href="/shop-single">Whopper Burger King</Link>
+                    <Link href="/shop-left-sidebar">Fast Food</Link>
                   </h4>
                   <div className="star">
                     <span className="fas fa-star" />
@@ -246,16 +248,16 @@ const page = () => {
             >
               <div className="catagory-product-card-2 text-center">
                 <div className="icon">
-                  <Link href="/shop-cart">
+                  <Link href="/shop-left-sidebar">
                     <i className="far fa-heart" />
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/pasta-2.png" alt="product-img" />
+                  <img src="assets/img/food/nehari.png" alt="product-img" />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
-                    <Link href="/shop-cart" className="theme-btn-2">
+                    <Link href="/shop-left-sidebar" className="theme-btn-2">
                       <i className="far fa-shopping-basket" />
                       Add To Cart
                     </Link>
@@ -266,7 +268,7 @@ const page = () => {
                     <span>$28.52</span>
                   </div>
                   <h4>
-                    <Link href="/shop-single">Chiness pasta</Link>
+                    <Link href="/shop-left-sidebar">Traditional</Link>
                   </h4>
                   <div className="star">
                     <span className="fas fa-star" />
@@ -284,16 +286,17 @@ const page = () => {
             >
               <div className="catagory-product-card-2 text-center">
                 <div className="icon">
-                  <Link href="/shop-cart">
+                  <Link href="/shop-left-sidebar">
                     <i className="far fa-heart" />
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/pizza-3.png" alt="product-img" />
+                  <img src="assets/img/food/naan.png" alt="product-img" 
+                  style={{ width: "250px" ,marginTop:"0px"}} />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
-                    <Link href="/shop-cart" className="theme-btn-2">
+                    <Link href="/shop-left-sidebar" className="theme-btn-2">
                       <i className="far fa-shopping-basket" />
                       Add To Cart
                     </Link>
@@ -304,7 +307,7 @@ const page = () => {
                     <span>$28.52</span>
                   </div>
                   <h4>
-                    <Link href="/shop-single">delicious burger</Link>
+                    <Link href="/shop-left-sidebar">TANDOOR</Link>
                   </h4>
                   <div className="star">
                     <span className="fas fa-star" />
@@ -322,7 +325,7 @@ const page = () => {
             >
               <div className="catagory-product-card-2 text-center">
                 <div className="icon">
-                  <Link href="/shop-cart">
+                  <Link href="/shop-left-sidebar">
                     <i className="far fa-heart" />
                   </Link>
                 </div>
@@ -334,7 +337,7 @@ const page = () => {
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
-                    <Link href="/shop-cart" className="theme-btn-2">
+                    <Link href="/shop-left-sidebar" className="theme-btn-2">
                       <i className="far fa-shopping-basket" />
                       Add To Cart
                     </Link>
@@ -345,7 +348,7 @@ const page = () => {
                     <span>$28.52</span>
                   </div>
                   <h4>
-                    <Link href="/shop-single">fast food combo</Link>
+                    <Link href="/shop-left-sidebar">Starter</Link>
                   </h4>
                   <div className="star">
                     <span className="fas fa-star" />
@@ -363,16 +366,17 @@ const page = () => {
             >
               <div className="catagory-product-card-2 text-center">
                 <div className="icon">
-                  <Link href="/shop-cart">
+                  <Link href="/shop-left-sidebar">
                     <i className="far fa-heart" />
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/ruti.png" alt="product-img" />
+                  <img src="assets/img/food/salad.png" alt="product-img" 
+                  style={{ width: "250px" ,marginTop:"0px"}} />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
-                    <Link href="/shop-cart" className="theme-btn-2">
+                    <Link href="/shop-left-sidebar" className="theme-btn-2">
                       <i className="far fa-shopping-basket" />
                       Add To Cart
                     </Link>
@@ -383,7 +387,7 @@ const page = () => {
                     <span>$28.52</span>
                   </div>
                   <h4>
-                    <Link href="/shop-single">ruti with chiken</Link>
+                    <Link href="/shop-left-sidebar"> SALAD BAR</Link>
                   </h4>
                   <div className="star">
                     <span className="fas fa-star" />
@@ -401,16 +405,17 @@ const page = () => {
             >
               <div className="catagory-product-card-2 text-center">
                 <div className="icon">
-                  <Link href="/shop-cart">
+                  <Link href="/shop-left-sidebar">
                     <i className="far fa-heart" />
                   </Link>
                 </div>
                 <div className="catagory-product-image">
-                  <img src="assets/img/food/grilled-2.png" alt="product-img" />
+                  <img src="assets/img/food/platter.png" alt="product-img" 
+                  style={{ width: "200px" ,marginTop:"0px",rotate:"44deg"}} />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
-                    <Link href="/shop-cart" className="theme-btn-2">
+                    <Link href="/shop-left-sidebar" className="theme-btn-2">
                       <i className="far fa-shopping-basket" />
                       Add To Cart
                     </Link>
@@ -421,7 +426,7 @@ const page = () => {
                     <span>$28.52</span>
                   </div>
                   <h4>
-                    <Link href="/shop-single">grilled chiken</Link>
+                    <Link href="/shop-left-sidebar">Platter</Link>
                   </h4>
                   <div className="star">
                     <span className="fas fa-star" />
@@ -439,19 +444,19 @@ const page = () => {
             >
               <div className="catagory-product-card-2 text-center">
                 <div className="icon">
-                  <Link href="/shop-cart">
+                  <Link href="/shop-left-sidebar">
                     <i className="far fa-heart" />
                   </Link>
                 </div>
                 <div className="catagory-product-image">
                   <img
-                    src="assets/img/food/delicious-burger.png"
+                    src="assets/img/food/pasta.png"
                     alt="product-img"
                   />
                 </div>
                 <div className="catagory-product-content">
                   <div className="catagory-button">
-                    <Link href="/shop-cart" className="theme-btn-2">
+                    <Link href="/shop-left-sidebar" className="theme-btn-2">
                       <i className="far fa-shopping-basket" />
                       Add To Cart
                     </Link>
@@ -462,7 +467,7 @@ const page = () => {
                     <span>$28.52</span>
                   </div>
                   <h4>
-                    <Link href="/shop-single">delicious burger</Link>
+                    <Link href="/shop-left-sidebar">GYRO COMBOS</Link>
                   </h4>
                   <div className="star">
                     <span className="fas fa-star" />
@@ -479,7 +484,7 @@ const page = () => {
             className="catagory-button text-center pt-4 wow fadeInUp"
             data-wow-delay=".3s"
           >
-            <Link href="/shop" className="theme-btn">
+            <Link href="/shop-left-sidebar" className="theme-btn">
               <span className="button-content-wrapper d-flex align-items-center">
                 <span className="button-icon">
                   <i className="flaticon-delivery" />
@@ -512,8 +517,8 @@ const page = () => {
                     </h2>
                   </div>
                   <p className="wow fadeInUp" data-wow-delay=".5s">
-                    A team of dreamers and doers building unique interactive
-                    music and art festivals.
+                    Experience authentic Al-Kababi flavors—fresh, halal ingredients
+                    with bold, unforgettable taste.
                   </p>
                   <div className="nav nav-tabs" id="nav-tab" role="tablist">
                     <button
@@ -602,8 +607,8 @@ const page = () => {
                       </div>
                       <div className="pizza-image">
                         <img
-                          src="assets/img/food/big-pizza.png"
-                          alt="food-img"
+                          src="assets/img/food/bbq-1.png"
+                          alt="food-img" style={{ width: "800px" }}
                         />
                       </div>
                       <div className="offer-shape">
@@ -704,8 +709,10 @@ const page = () => {
           </div>
         </div>
       </section>
+
       {/* Marque Section Start */}
       <Marque />
+
       {/* Choose Us Section Start */}
       <section className="choose-us fix section-padding pt-0 section-bg">
         <div className="container">
@@ -727,8 +734,7 @@ const page = () => {
                   <div className="content">
                     <h4>super quality food</h4>
                     <p>
-                      A team of dreamers and doers building unique interactive
-                      music and art
+                      Premium halal ingredients prepared fresh daily at Al-Kababi.
                     </p>
                   </div>
                 </div>
@@ -744,8 +750,7 @@ const page = () => {
                   <div className="content">
                     <h4>original recipes</h4>
                     <p>
-                      A team of dreamers and doers building unique interactive
-                      music and art
+                      Authentic Middle Eastern recipes crafted by our expert chefs.
                     </p>
                   </div>
                 </div>
@@ -761,8 +766,7 @@ const page = () => {
                   <div className="content">
                     <h4>quick fast delivery</h4>
                     <p>
-                      A team of dreamers and doers building unique interactive
-                      music and art
+                      Fast delivery and pickup — hot, on time, every order.
                     </p>
                   </div>
                 </div>
@@ -778,8 +782,7 @@ const page = () => {
                   <div className="content">
                     <h4>100% fresh foods</h4>
                     <p>
-                      A team of dreamers and doers building unique interactive
-                      music and art
+                      100% fresh produce and halal meats sourced with care.
                     </p>
                   </div>
                 </div>
@@ -788,6 +791,7 @@ const page = () => {
           </div>
         </div>
       </section>
+
       {/* About Section Start */}
       <section className="about-section fix section-padding pt-0 section-bg">
         <div className="container">
@@ -829,11 +833,9 @@ const page = () => {
                     </h2>
                   </div>
                   <p className="wow fadeInUp" data-wow-delay=".5s">
-                    It's the perfect dining experience where every dish is
-                    crafted with fresh, high-quality Experience quick and
-                    efficient service that ensures your food is servead fresh
-                    It's the dining experience where every dish is crafted with
-                    fresh, high-quality ingredients
+                    At Al-Kababi, we serve authentic Middle Eastern cuisine made fresh daily.
+                    From hand-marinated kebabs to house-baked breads, every dish is halal,
+                    flavorful, and prepared to order.
                   </p>
                   <div className="icon-area">
                     <div
@@ -846,8 +848,7 @@ const page = () => {
                       <div className="content">
                         <h4>super quality food</h4>
                         <p>
-                          A team of dreamers and doers build unique interactive
-                          music and art
+                          Premium halal ingredients prepared fresh in our kitchen.
                         </p>
                       </div>
                     </div>
@@ -861,8 +862,7 @@ const page = () => {
                       <div className="content">
                         <h4>well reputation</h4>
                         <p>
-                          A team of dreamers and doers build unique interactive
-                          music and art
+                          Loved by our community for consistent taste and friendly service.
                         </p>
                       </div>
                     </div>
@@ -889,174 +889,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      {/* Food Banner Section Start */}
-      <section className="food-banner-section fix section-padding section-bg pt-0">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div
-              className="col-xl-7 col-lg-9 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div
-                className="burger-banner-items bg-cover"
-                style={{
-                  backgroundImage: "url(assets/img/banner/burger-bg.png)",
-                }}
-              >
-                <div className="burger-content text-center">
-                  <h3>today</h3>
-                  <h2>special</h2>
-                  <h4>
-                    <Link href="/shop" className="text-white">
-                      beef <span>burger</span>
-                    </Link>
-                  </h4>
-                  <Link href="/shop-single" className="theme-btn mt-4">
-                    <span className="button-content-wrapper d-flex align-items-center">
-                      <span className="button-icon">
-                        <i className="flaticon-delivery" />
-                      </span>
-                      <span className="button-text">order now</span>
-                    </span>
-                  </Link>
-                </div>
-                <div className="burger-image">
-                  <img src="assets/img/food/big-burger.png" alt="food-img" />
-                </div>
-                <div className="text-shape">
-                  <img
-                    src="assets/img/shape/pizza-text-2.png"
-                    alt="shape-img"
-                  />
-                </div>
-                <div className="burger-text">
-                  <img src="assets/img/shape/burger-text.png" alt="shape-img" />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-5 col-lg-9 mt-5 mt-xl-0 wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <div
-                className="single-offer-items style-2 bg-cover"
-                style={{
-                  backgroundImage: 'url("assets/img/banner/pepsi-bg.png")',
-                }}
-              >
-                <div className="offer-content">
-                  <h5>crispy, every bite taste</h5>
-                  <h3>
-                    FASH FOOD <br />
-                    MEAL
-                  </h3>
-                  <p>
-                    The mouth-watering aroma of <br />
-                    sizzling burgers
-                  </p>
-                  <Link href="/shop-single" className="theme-btn mt-4">
-                    <span className="button-content-wrapper d-flex align-items-center">
-                      <span className="button-icon">
-                        <i className="flaticon-delivery" />
-                      </span>
-                      <span className="button-text">order now</span>
-                    </span>
-                  </Link>
-                </div>
-                <div className="offer-img">
-                  <img
-                    src="assets/img/offer/50percent-off-3.png"
-                    alt="shape-img"
-                  />
-                </div>
-                <div className="roller-box">
-                  <img src="assets/img/food/roller-box.png" alt="food-img" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* KFC Banner Section Start */}
-      <section
-        className="kfc-banner fix bg-cover section-padding"
-        style={{ backgroundImage: 'url("assets/img/bg-image/bg.jpg")' }}
-      >
-        <div className="kfc-wrapper">
-          <div className="container-fluid">
-            <div className="row justify-content-between">
-              <div className="col-lg-5">
-                <div
-                  className="kfc-image-items bg-cover"
-                  style={{
-                    backgroundImage: 'url("assets/img/banner/kfc-bg.png")',
-                  }}
-                >
-                  <div className="kfc-image">
-                    <img src="assets/img/food/kfc.png" alt="food-img" />
-                  </div>
-                  <div className="offer-shape">
-                    <img
-                      src="assets/img/offer/50percent-off-2.png"
-                      alt="shape-img"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="kfc-content text-center">
-                  <div className="section-title">
-                    <span className="wow fadeInUp">
-                      crispy, every bite taste
-                    </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      kfc chiken hot <br />
-                      wing &amp; french fries
-                    </h2>
-                  </div>
-                  <p className="mt-3 mt-lg-0 wow fadeInUp" data-wow-delay=".5s">
-                    Wheat tortilla with spicy chicken bites, cheese sauce <br />
-                    tomatoes and soft cheese
-                  </p>
-                  <ul
-                    className="countdown-items wow fadeInUp"
-                    data-wow-delay=".7s"
-                  >
-                    <li>
-                      <span id="day">30</span>
-                      <p>Days</p>
-                    </li>
-                    <li>
-                      <span id="Hours">22</span>
-                      <p className="cont">hours</p>
-                    </li>
-                    <li>
-                      <span id="Minutes">48</span>
-                      <p>Min</p>
-                    </li>
-                    <li>
-                      <span id="Seconds">22</span>
-                      <p>Sec</p>
-                    </li>
-                  </ul>
-                  <Link
-                    href="/shop-single"
-                    className="theme-btn mt-5 wow fadeInUp"
-                    data-wow-delay=".8s"
-                  >
-                    <span className="button-content-wrapper d-flex align-items-center">
-                      <span className="button-icon">
-                        <i className="flaticon-delivery" />
-                      </span>
-                      <span className="button-text">order now</span>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       {/* Testimonial Section Start */}
       <TestimonialSlider />
       {/* Main Cta Banner Section Start */}
@@ -1133,7 +966,7 @@ const page = () => {
                     <div className="content">
                       <h5>24/7 Support center</h5>
                       <h3>
-                        <a href="tel:+1718-904-4450">+1718-904-4450</a>
+                        <a href="tel:+516-249-7414">+516-249-7414</a>
                       </h3>
                     </div>
                   </div>

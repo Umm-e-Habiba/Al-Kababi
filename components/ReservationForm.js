@@ -36,7 +36,7 @@ const ReservationForm = () => {
           <input type="date" id="date" name="date" />
         </div>
         <div className="form-clt">
-          <Link href="/reservation" className="theme-btn bg-yellow">
+          <Link href="/" className="theme-btn bg-yellow">
             booking now
           </Link>
         </div>

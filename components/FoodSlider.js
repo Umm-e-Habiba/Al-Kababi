@@ -51,8 +51,8 @@ const FoodSlider = () => {
               >
                 <h5>8 products</h5>
                 <div className="catagory-product-image text-center">
-                  <Link href="/shop">
-                    <img src="assets/img/food/BBQ-roll.png" alt="product-img" />
+                  <Link href="/shop-left-sidebar">
+                    <img src="assets/img/food/rolls-without-bg.png" alt="product-img" style={{ width: "240px" ,marginTop:"60px"}} />
                     <div className="decor-leaf">
                       <img
                         src="assets/img/shape/decor-leaf.svg"
@@ -97,8 +97,8 @@ const FoodSlider = () => {
               >
                 <h5>2 products</h5>
                 <div className="catagory-product-image text-center">
-                  <Link href="/shop">
-                    <img src="assets/img/food/bbq.png" alt="product-img" />
+                  <Link href="/shop-left-sidebar">
+                    <img src="assets/img/food/platter.png" alt="product-img" style={{ width: "140px"}} />
                     <div className="decor-leaf">
                       <img
                         src="assets/img/shape/decor-leaf.svg"
@@ -143,7 +143,7 @@ const FoodSlider = () => {
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
-                  <Link href="/shop">
+                  <Link href="/shop-left-sidebar">
                     <img src="assets/img/food/delicious-burger.png" alt="product-img" />
                     <div className="decor-leaf">
                       <img
@@ -189,9 +189,9 @@ const FoodSlider = () => {
               >
                 <h5>4 products</h5>
                 <div className="catagory-product-image text-center">
-                  <Link href="/shop">
+                  <Link href="/shop-left-sidebar">
                     <img
-                      src="assets/img/food/french-fry.png"
+                      src="assets/img/food/nehari.png"
                       alt="product-img"
                     />
                     <div className="decor-leaf">
@@ -236,10 +236,60 @@ const FoodSlider = () => {
                     'url("assets/img/shape/catagory-card-shape.jpg")',
                 }}
               >
+                <h5>4 products</h5>
+                <div className="catagory-product-image text-center">
+                  <Link href="/shop-left-sidebar">
+                    <img
+                      src="assets/img/food/gyro-wrap-1.png"
+                      alt="product-img" 
+                      style={{ width: "200px" ,marginTop:"40px"}}
+                    />
+                    <div className="decor-leaf">
+                      <img
+                        src="assets/img/shape/decor-leaf.svg"
+                        alt="shape-img"
+                      />
+                    </div>
+                    <div className="decor-leaf-2">
+                      <img
+                        src="assets/img/shape/decor-leaf-2.svg"
+                        alt="shape-img"
+                      />
+                    </div>
+                    <div className="burger-shape">
+                      <img
+                        src="assets/img/shape/burger-shape.png"
+                        alt="shape-img"
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="catagory-product-content text-center">
+                  <div className="catagory-product-icon">
+                    {/* <img
+                      src="assets/img/shape/food-shape.svg"
+                      alt="shape-text"
+                    /> */}
+                  </div>
+                  <h3>
+                    <Link href="/shop-single">Gyro Wrap</Link>
+                  </h3>
+                  <p>4 products</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide">
+              <div
+                className="catagory-product-card bg-cover"
+                style={{
+                  backgroundImage:
+                    'url("assets/img/shape/catagory-card-shape.jpg")',
+                }}
+              >
                 <h5>9 products</h5>
                 <div className="catagory-product-image text-center">
-                  <Link href="/shop">
-                    <img src="assets/img/food/pizza.png" alt="product-img" />
+                  <Link href="/shop-left-sidebar">
+                    <img src="assets/img/food/bbq-1.png" alt="product-img"  style={{ width: "180px" ,marginTop:"10px"}} />
                     <div className="decor-leaf">
                       <img
                         src="assets/img/shape/decor-leaf.svg"
@@ -284,7 +334,7 @@ const FoodSlider = () => {
               >
                 <h5>5 products</h5>
                 <div className="catagory-product-image text-center">
-                  <Link href="/shop">
+                  <Link href="/shop-left-sidebar">
                     <img src="assets/img/food/pasta.png" alt="product-img" />
                     <div className="decor-leaf">
                       <img
@@ -330,7 +380,7 @@ const FoodSlider = () => {
               >
                 <h5>7 products</h5>
                 <div className="catagory-product-image text-center">
-                  <Link href="/shop">
+                  <Link href="/shop-left-sidebar">
                     <img src="assets/img/food/burger.png" alt="product-img" />
                     <div className="decor-leaf">
                       <img
@@ -360,61 +410,13 @@ const FoodSlider = () => {
                     /> */}
                   </div>
                   <h3>
-                    <Link href="/shop-single">BBQ Platter</Link>
+                    <Link href="/shop-single">BURGER</Link>
                   </h3>
                   <p>7 products</p>
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="catagory-product-card bg-cover"
-                style={{
-                  backgroundImage:
-                    'url("assets/img/shape/catagory-card-shape.jpg")',
-                }}
-              >
-                <h5>4 products</h5>
-                <div className="catagory-product-image text-center">
-                  <Link href="/shop">
-                    <img
-                      src="assets/img/food/french-fry.png"
-                      alt="product-img"
-                    />
-                    <div className="decor-leaf">
-                      <img
-                        src="assets/img/shape/decor-leaf.svg"
-                        alt="shape-img"
-                      />
-                    </div>
-                    <div className="decor-leaf-2">
-                      <img
-                        src="assets/img/shape/decor-leaf-2.svg"
-                        alt="shape-img"
-                      />
-                    </div>
-                    <div className="burger-shape">
-                      <img
-                        src="assets/img/shape/burger-shape.png"
-                        alt="shape-img"
-                      />
-                    </div>
-                  </Link>
-                </div>
-                <div className="catagory-product-content text-center">
-                  <div className="catagory-product-icon">
-                    {/* <img
-                      src="assets/img/shape/food-shape.svg"
-                      alt="shape-text"
-                    /> */}
-                  </div>
-                  <h3>
-                    <Link href="/shop-single">Gyro Wrap</Link>
-                  </h3>
-                  <p>4 products</p>
-                </div>
-              </div>
-            </SwiperSlide>
+            
           </div>
         </Swiper>
       </div>

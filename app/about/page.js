@@ -10,7 +10,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <FoodKingLayout>
-      <PageBanner pageName={"About us"} />
+      <PageBanner pageName={"About Al-Kababi"} />
       {/* About Section Start */}
       <section className="about-section fix section-padding section-bg">
         <div className="container">
@@ -46,17 +46,16 @@ const page = () => {
               <div className="col-xl-6 col-lg-6 mt-5 mt-lg-0">
                 <div className="about-content">
                   <div className="section-title">
-                    <span className="wow fadeInUp">about our food</span>
+                    <span className="wow fadeInUp">About Al-Kababi</span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Where Quality Meet Excellent <span>Service.</span>
+                      Authentic Middle Eastern flavors, fresh &amp; <span>halal</span>.
                     </h2>
                   </div>
                   <p className="wow fadeInUp" data-wow-delay=".5s">
-                    It's the perfect dining experience where every dish is
-                    crafted with fresh, high-quality Experience quick and
-                    efficient service that ensures your food is servead fresh
-                    It's the dining experience where every dish is crafted with
-                    fresh, high-quality ingredients
+                    At Al-Kababi, we marinate, grill, and bake in-house every day.
+                    From shawarma carved to order to house-baked breads and
+                    vibrant salads, our food is prepared fresh, halal, and full
+                    of bold, memorable flavor.
                   </p>
                   <div className="icon-area">
                     <div
@@ -67,10 +66,10 @@ const page = () => {
                         <i className="flaticon-quality" />
                       </div>
                       <div className="content">
-                        <h4>super quality food</h4>
+                        <h4>Premium halal ingredients</h4>
                         <p>
-                          A team of dreamers and doers build unique interactive
-                          music and art
+                          We source fresh produce and halal meats and prepare
+                          them daily in our kitchen.
                         </p>
                       </div>
                     </div>
@@ -82,10 +81,10 @@ const page = () => {
                         <i className="flaticon-reputation" />
                       </div>
                       <div className="content">
-                        <h4>well reputation</h4>
+                        <h4>Trusted by our community</h4>
                         <p>
-                          A team of dreamers and doers build unique interactive
-                          music and art
+                          Consistent taste, generous portions, and friendly
+                          service make us a neighborhood favorite.
                         </p>
                       </div>
                     </div>
@@ -96,14 +95,14 @@ const page = () => {
                       className="theme-btn style-line-height wow fadeInUp"
                       data-wow-delay=".3s"
                     >
-                      more about us
+                      explore our story
                     </Link>
                     <div
                       className="info-content wow fadeInUp"
                       data-wow-delay=".5s"
                     >
-                      <span>BRENDON GARREY</span>
-                      <h6>Customer's experience is our highest priority.</h6>
+                      <span>AL-KABABI TEAM</span>
+                      <h6>Great food and hospitality, every single order.</h6>
                     </div>
                   </div>
                 </div>
@@ -128,12 +127,10 @@ const page = () => {
         <div className="container">
           <div className="main-cta-banner-wrapper-2 d-flex align-items-center justify-content-between">
             <div className="section-title mb-0">
-              <span className="theme-color-3 wow fadeInUp">
-                crispy, every bite taste
-              </span>
+              <span className="theme-color-3 wow fadeInUp">fresh • halal • flavorful</span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                30 minutes fast <br />
-                <span className="theme-color-3">delivery</span> challage
+                Fast delivery, always hot. <br />
+                <span className="theme-color-3">Order</span> your favorites now
               </h2>
             </div>
             <Link
@@ -171,13 +168,13 @@ const page = () => {
                   <h3>today</h3>
                   <h2>special</h2>
                   <h4>
-                    <Link href="/shop" className="text-white">
-                      beef <span>burger</span>
+                    <Link href="/shop-left-sidebar" className="text-white">
+                      chicken <span>shawarma</span>
                     </Link>
                   </h4>
                 </div>
                 <div className="burger-image">
-                  <img src="assets/img/food/big-burger.png" alt="food-img" />
+                  <img src="assets/img/food/grilled.png" alt="food-img" />
                 </div>
                 <div className="text-shape">
                   <img
@@ -198,14 +195,13 @@ const page = () => {
                 }}
               >
                 <div className="offer-content">
-                  <h5>crispy, every bite taste</h5>
+                  <h5>signature platters &amp; combos</h5>
                   <h3>
-                    FASH FOOD <br />
-                    MEAL
+                    FAMILY <br />
+                    PLATTER
                   </h3>
                   <p>
-                    The mouth-watering aroma of <br />
-                    sizzling burgers
+                    Mix grills, shawarma, rice, salad &amp; sauces — perfect to share
                   </p>
                   <Link href="/shop-single" className="theme-btn mt-4">
                     order now
@@ -281,10 +277,10 @@ const page = () => {
       {/* Team Section Start */}
       <section className="team-section section-padding section-bg fix">
         <div className="container">
-          <div className="section-title text-center">
-            <span className="wow fadeInUp">about our food</span>
+            <div className="section-title text-center">
+            <span className="wow fadeInUp">our people</span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              MEET OUR EXPERT CHEFS
+              MEET THE AL-KABABI TEAM
             </h2>
           </div>
           <div className="row">
@@ -341,7 +337,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="team-content">
-                  <p>sr table manager</p>
+                  <p>general manager</p>
                   <h3>
                     <Link href="/team-details">Henry Lucas</Link>
                   </h3>
@@ -371,7 +367,7 @@ const page = () => {
                   </div>
                 </div>
                 <div className="team-content">
-                  <p>senoir cooker</p>
+                  <p>grill master</p>
                   <h3>
                     <Link href="/team-details">Mateo Levi</Link>
                   </h3>
@@ -397,10 +393,10 @@ const page = () => {
         }}
       >
         <div className="container">
-          <div className="section-title text-center">
-            <span className="wow fadeInUp">food processing</span>
+            <div className="section-title text-center">
+            <span className="wow fadeInUp">from kitchen to table</span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              how we serve you?
+              how we serve you
             </h2>
           </div>
           <div className="food-processing-wrapper">
@@ -417,10 +413,9 @@ const page = () => {
                     </div>
                   </div>
                   <div className="food-processing-content">
-                    <h3>cooking with care</h3>
+                    <h3>marinate &amp; prepare</h3>
                     <p>
-                      It's the perfect dining experience where Experience quick
-                      and efficient
+                      We marinate meats and prep fresh produce in-house daily.
                     </p>
                   </div>
                 </div>
@@ -437,10 +432,9 @@ const page = () => {
                     </div>
                   </div>
                   <div className="food-processing-content">
-                    <h3>quickly delivery</h3>
+                    <h3>grill &amp; bake</h3>
                     <p>
-                      It's the perfect dining experience where Experience quick
-                      and efficient
+                      Kebabs grilled over flame, breads baked fresh to order.
                     </p>
                   </div>
                 </div>
@@ -457,10 +451,9 @@ const page = () => {
                     </div>
                   </div>
                   <div className="food-processing-content">
-                    <h3>choose food</h3>
+                    <h3>pack &amp; deliver</h3>
                     <p>
-                      It's the perfect dining experience where Experience quick
-                      and efficient
+                      Packed hot with sauces and sides, ready for pickup or delivery.
                     </p>
                   </div>
                 </div>
@@ -503,7 +496,7 @@ const page = () => {
                     <div className="content">
                       <h5>24/7 Support center</h5>
                       <h3>
-                        <a href="tel:+1718-904-4450">+1718-904-4450</a>
+                        <a href="tel:+516-249-7414">+516-249-7414</a>
                       </h3>
                     </div>
                   </div>
@@ -555,7 +548,7 @@ const page = () => {
                       <input type="date" id="calendar" name="calendar" />
                     </div>
                     <div className="form-clt">
-                      <Link href="/reservation" className="theme-btn bg-yellow">
+                      <Link href="/" className="theme-btn bg-yellow">
                         booking now
                       </Link>
                     </div>

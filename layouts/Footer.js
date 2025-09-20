@@ -30,7 +30,7 @@ const Footer1 = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/logo.svg" alt="logo-img" />
+                    <img src="assets/img/logo/alkababi.png" alt="logo-img" style={{ width: "150px" }} />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -39,8 +39,8 @@ const Footer1 = () => {
                     amazing things.
                   </p>
                   <span>Interested in working with us?</span> <br />
-                  <a href="mailto:info@example.com" className="link">
-                    info@example.com
+                  <a href="mailto:info@alkababi.com" className="link">
+                    info@alkababi.com
                   </a>
                   <div className="social-icon d-flex align-items-center">
                     <a href="#">
@@ -69,19 +69,19 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-items">
                   <li>
-                    <Link href="/about">Services</Link>
+                    <Link href="/shop-left-sidebar">Shop</Link>
                   </li>
                   <li>
-                    <Link href="/about">About company</Link>
+                    <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="/news-details">latest news</Link>
+                    <Link href="/testimonial">Testimonials</Link>
                   </li>
                   <li>
-                    <Link href="/team">team member</Link>
+                    <Link href="/team">Team member</Link>
                   </li>
                   <li>
-                    <Link href="/testimonial">testimonials</Link>
+                    <Link href="/faq">FAQs</Link>
                   </li>
                 </ul>
               </div>
@@ -96,11 +96,9 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-items">
                   <li>
-                    <Link href="/shop-single">My Profile</Link>
+                    <Link href="/shop-single">Our Menu</Link>
                   </li>
-                  <li>
-                    <Link href="/shop-single">My Order History</Link>
-                  </li>
+                  
                   <li>
                     <Link href="/shop-single">My Wish List</Link>
                   </li>
@@ -123,8 +121,8 @@ const Footer1 = () => {
                 </div>
                 <div className="footer-address-text">
                   <h6>
-                    570 8th Ave, New York,NY <span>10018</span>
-                    United States
+                  22 Hempstead turnpike
+                  Farmingdale NY 11735
                   </h6>
                   <h5>Hours:</h5>
                   <h6>
@@ -155,7 +153,7 @@ const Footer1 = () => {
                   <div className="support-text">
                     <h5>24/7 Support center</h5>
                     <h3>
-                      <a href="tel:+1718-904-4450">+1718-904-4450</a>
+                      <a href="tel:+516-249-7414">+516-249-7414</a>
                     </h3>
                   </div>
                 </div>
@@ -168,8 +166,8 @@ const Footer1 = () => {
         <div className="container">
           <div className="footer-bottom-wrapper d-flex align-items-center justify-content-between">
             <p className="wow fadeInLeft" data-wow-delay=".3s">
-              © Copyright <span className="theme-color-3">2024</span>{" "}
-              <Link href="/">Foodking </Link>. All Rights Reserved.
+              © Copyright <span className="theme-color-3">2025</span>{" "}
+              <Link href="/">Al-Kababi </Link>. All Rights Reserved.
             </p>
             <div className="card-image wow fadeInRight" data-wow-delay=".5s">
               <img src="assets/img/card.png" alt="card-img" />
@@ -318,8 +316,8 @@ const Footer2 = () => {
         <div className="container">
           <div className="footer-bottom-wrapper d-flex align-items-center justify-content-between">
             <p className="wow fadeInLeft" data-wow-delay=".3s">
-              © Copyright <span className="theme-color-3">2024</span>{" "}
-              <Link href="/">Foodking </Link>. All Rights Reserved.
+              © Copyright <span className="theme-color-3">2025</span>{" "}
+              <Link href="/">Al-Kababi </Link>. All Rights Reserved.
             </p>
             <ul className="wow fadeInRight" data-wow-delay=".5s">
               <li>
